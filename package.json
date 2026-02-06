@@ -12,12 +12,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@fontsource/open-sans": "5.2.7",
+    "@mui/icons-material": "^7.3.7",
+    "@mui/material": "^7.3.7",
     "@react-google-maps/api": "2.20.7",
     "apexcharts": "5.3.5",
     "bootstrap": "5.3.8",
     "chance": "1.1.13",
     "formik": "2.4.6",
+    "iconsax-react": "^0.0.8",
     "jsvectormap": "1.7.0",
     "react": "19.2.0",
     "react-apexcharts": "1.8.0",
@@ -46,5 +51,5 @@
     "prettier": "3.6.2",
     "sass": "1.93.2"
   },
-  "packageManager": "yarn@4.12.0"
+  "packageManager": "yarn@4.12.0+sha512.f45ab632439a67f8bc759bf32ead036a1f413287b9042726b7cc4818b7b49e14e9423ba49b18f9e06ea4941c1ad062385b1d8760a8d5091a1a31e5f6219afca8"
 }

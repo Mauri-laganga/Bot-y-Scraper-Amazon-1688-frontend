@@ -46,12 +46,13 @@ b,
 strong {
   font-weight: 600;
 }
+
 .ti:not([class*='align-']) {
   vertical-align: middle;
 }
 
 .breadcrumb-default-icon {
-  .breadcrumb-item + .breadcrumb-item::before {
+  .breadcrumb-item+.breadcrumb-item::before {
     position: relative;
     top: 2px;
   }
@@ -103,13 +104,13 @@ pre[class*='language-']:after {
   display: none;
 }
 
-:not(pre) > code[class*='language-'],
+:not(pre)>code[class*='language-'],
 pre[class*='language-'] {
   display: flex;
   margin: 0;
 }
 
-pre[class*='language-'] > code {
+pre[class*='language-']>code {
   width: 100%;
 }
 
@@ -124,11 +125,23 @@ pre[class*='language-'] > code {
 }
 
 .breadcrumb-svg {
-  .breadcrumb-item + .breadcrumb-item::before {
+  .breadcrumb-item+.breadcrumb-item::before {
     position: relative;
     top: 2px;
   }
 }
+
+// Reduce ruido visual general
+body {
+  background-color: #f5f7fb;
+}
+
+.MuiToggleButton-root {
+  text-transform: none;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+}
+
 
 /**  =====================
     2. Custom css end

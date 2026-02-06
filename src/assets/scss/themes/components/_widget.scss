@@ -35,7 +35,7 @@
     height: 6px;
   }
 
-  .card-active > div + div {
+  .card-active>div+div {
     border-left: 1px solid var(--bs-border-color);
   }
 }
@@ -61,11 +61,12 @@
   padding-top: 0;
 
   .table {
-    > thead > tr > th {
+    >thead>tr>th {
       border-top: 0;
     }
 
     tr {
+
       td,
       th {
         &:first-child {
@@ -115,7 +116,7 @@
       padding: 50px 20px;
     }
 
-    > [class*='col-'] {
+    >[class*='col-'] {
       display: table-cell;
       float: none;
       table-layout: fixed;
@@ -128,6 +129,21 @@
     }
   }
 }
+
+// ==============================
+// DASHBOARD CHARTS
+// ==============================
+
+.dashboard-chart {
+  padding: 16px;
+
+  h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+}
+
 
 // ============================
 //    10. Widget css end

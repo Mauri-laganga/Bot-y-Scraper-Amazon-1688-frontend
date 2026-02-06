@@ -35,6 +35,8 @@ File: style.css
 @import 'settings/color-variables';
 @import 'settings/theme-variables';
 @import 'settings/bootstrap-variables';
+@import 'settings/dashboard';
+
 
 @import 'bootstrap/scss/maps';
 @import 'bootstrap/scss/mixins';
@@ -72,6 +74,7 @@ File: style.css
 @import 'bootstrap/scss/helpers';
 @import 'bootstrap/scss/utilities';
 @import 'bootstrap/scss/utilities/api';
+
 
 // main framework
 @import 'themes/generic';

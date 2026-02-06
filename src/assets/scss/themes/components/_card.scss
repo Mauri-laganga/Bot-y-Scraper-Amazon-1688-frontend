@@ -15,8 +15,8 @@
       font-size: 0.875rem;
       font-weight: 600;
 
-      + p,
-      + small {
+      +p,
+      +small {
         margin-top: 10px;
 
         &:last-child {
@@ -40,15 +40,66 @@
 @include media-breakpoint-down(sm) {
   .card:not(.table-card) {
     margin-bottom: 20px;
+
     .card-header {
       padding: 20px;
+
       h5 {
         font-size: 0.875rem;
       }
     }
+
     .card-body {
       padding: 20px;
     }
+  }
+}
+
+// ==============================
+// DASHBOARD CARDS
+// ==============================
+
+.pc-card,
+.card {
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+// ============================
+// Métricas superiores
+// ============================
+.metric-card {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .metric-title {
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .metric-value {
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+}
+
+// ============================
+// Cards de charts
+// ============================
+.chart-card {
+  .card-header {
+    padding-bottom: 8px;
+  }
+
+  h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
   }
 }
 
