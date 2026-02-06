@@ -1,0 +1,87 @@
+{
+    "status": "success",
+    "timestamp": "2026-02-04T14:15:37.265711",
+    "count": 10,
+    "data": [
+        {
+            "id": 1251,
+            "score": 0.88,
+            "reason": "Potencial Alto (Estimación Heurística)",
+            "tipo_negocio": "Private Label",
+            "created_at": "2026-02-04T14:15:17",
+            "financials": {
+                "costo_1688": 8.5,
+                "precio_venta_estimado": 51.0,
+                "roi_percentage": 500.0,
+                "margen_bruto": 42.5
+            },
+            "producto": {
+                "id": 3611,
+                "titulo": "Nylon Outdoor Sports Silic",
+                "url_1688": "https://detail.1688.com/offer/724626045654.html",
+                "imagen": "https://cbu01.alicdn.com/img/ibank/O1CN01XNw3W1J6qjudyoS_J!!2215824462496-0-cib.jpg",
+                "rating": 5.0
+            }
+        },
+        {
+            "id": 1243,
+            "score": 0.83,
+            "reason": "Potencial Alto (Estimación Heurística)",
+            "tipo_negocio": "Private Label",
+            "created_at": "2026-02-04T14:15:17",
+            "financials": {
+                "costo_1688": 5.9,
+                "precio_venta_estimado": 57.0,
+                "roi_percentage": 500.0,
+                "margen_bruto": 47.5
+            },
+            "producto": {
+                "id": 3578,
+                "titulo": "Stainless Steel Slicer Fruit Vegetable And Strawberry Cutter Pattern Slicing Creative Kitchen Tool",
+                "url_1688": "https://detail.1688.com/offer/792717375091.html",
+                "imagen": "https://cbu01.alicdn.com/img/ibank/O1CN01RLXjPG1vDiP3jAZRq!!991596139-0-cib.jpg",
+                "rating": 5.0
+            }
+        },
+        {
+            "id": 1246,
+            "score": 0.8,
+            "reason": "Venta Arbitraje (Precio Real Validado)",
+            "tipo_negocio": "Arbitrage",
+            "created_at": "2026-02-04T14:15:17",
+            "financials": {
+                "costo_1688": 8.5,
+                "precio_venta_estimado": 30.0,
+                "roi_percentage": 252.94,
+                "margen_bruto": 21.5
+            },
+            "producto": {
+                "id": 3591,
+                "titulo": "Cat Litter Box Semi Enclosed Breathable Odor Free Cat Toilet Extra Large Anti Splash Cat Litter Box Pet Supplies",
+                "url_1688": "https://detail.1688.com/offer/987545230909.html",
+                "imagen": "https://cbu01.alicdn.com/img/ibank/O1CN01g8NBDYbLQL8L5A_!!2220751243471-0-cib.jpg",
+                "rating": 5.0
+            }
+        },
+        {
+            "id": 1247,
+            "score": 0.8,
+            "reason": "Potencial Alto (Estimación Heurística)",
+            "tipo_negocio": "Private Label",
+            "created_at": "2026-02-04T14:15:17",
+            "financials": {
+                "costo_1688": 38.0,
+                "precio_venta_estimado": 228.0,
+                "roi_percentage": 500.0,
+                "margen_bruto": 190.0
+            },
+            "producto": {
+                "id": 3596,
+                "titulo": "Mile Mushroom Sisal Rope Cat Scratch Board Cat Scratch",
+                "url_1688": "https://detail.1688.com/offer/893913628438.html",
+                "imagen": "https://cbu01.alicdn.com/img/ibank/O1CN01wNxnNj1LXF5KFZyp_!!2219333344828-0-cib.jpg",
+                "rating": 5.0
+            }
+        }
+    ]
+}
